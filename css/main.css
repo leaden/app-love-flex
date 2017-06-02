@@ -22,6 +22,7 @@ body {
 	width: 100%;
 }
 
+
 .menu.flex-container{
 	justify-content: flex-start;
 }
@@ -43,7 +44,8 @@ a:hover {
 .link{
   font-weight: 700;
   padding: 21px;
-  display: inline-block; /* crear cajas que son de bloque  */
+  display: inline-block; /* crear cajas que son de bloque */
+  color: black;
 }
 
 #home{
@@ -56,12 +58,11 @@ a:hover {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 
-/* despliegue del contenido en forma vertical*/
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-	color: whitesmoke;
+  /* despliegue del contenido en forma vertical*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
 }
 
 .text-home{
@@ -106,6 +107,39 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+#productos h1{
+  font-size:25px;
+  margin-top: 30px;
+}
+
+#productos h4{
+  text-align: center;
+  padding: 30px;
+  margin-top: 8px;
+} 
+
+
+#imagenes.flex-container{
+  width: 70px;
+  margin-right: auto;
+  margin-left: 20px;
+  
+  
+}
+
+.row img{
+  width: 350px;
+  padding: 30px;
+
+  
+}
+
+.row h1{
+  text-align: center;
+  margin-bottom: 60px;
+  
 }
 
 footer{
