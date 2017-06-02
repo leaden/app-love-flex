@@ -101,6 +101,13 @@ a:hover {
 	font-weight: bold;
 }
 
+#productos #work.flex-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 footer{
   text-align: center;
   height: 70px;
